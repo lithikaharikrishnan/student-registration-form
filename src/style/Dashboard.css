@@ -1,0 +1,94 @@
+
+.dashboard {
+  padding: 35px;
+}
+
+.dashboard-heading h1 {
+  color: #172554;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.dashboard-heading p {
+  color: #64748b;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 30px;
+}
+
+.stat-card {
+  padding: 28px;
+  border-radius: 14px;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.stat-card h2 {
+  font-size: 35px;
+  margin: 15px 0 5px;
+}
+
+.stat-card p {
+  margin: 0;
+}
+
+.blue {
+  background: #2563eb;
+}
+
+.green {
+  background: #16a34a;
+}
+
+.orange {
+  background: #ea580c;
+}
+
+.dashboard-info,
+.recent-section {
+  background: white;
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.dashboard-info h2,
+.recent-section h2 {
+  color: #172554;
+  margin-bottom: 12px;
+}
+
+.recent-student {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #e2e8f0;
+  gap: 12px;
+}
+
+.recent-student p {
+  color: #64748b;
+  margin-top: 5px;
+}
+
+.recent-student span {
+  color: #2563eb;
+  font-size: 13px;
+  text-align: right;
+}
+
+@media (max-width: 700px) {
+  .stats-container {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard {
+    padding: 18px;
+  }
+}

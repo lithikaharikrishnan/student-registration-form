@@ -1,0 +1,44 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f1f5f9;
+  color: #334155;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+button {
+  transition: 0.2s ease;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #172554;
+  color: white;
+  font-size: 13px;
+  line-height: 1.7;
+}

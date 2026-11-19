@@ -1,0 +1,84 @@
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15,23,42,0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  z-index: 1000;
+}
+
+.details-modal {
+  background: white;
+  width: 100%;
+  max-width: 480px;
+  padding: 28px;
+  border-radius: 15px;
+  text-align: center;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #172554;
+}
+
+.details-header button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #64748b;
+}
+
+.student-avatar {
+  width: 75px;
+  height: 75px;
+  margin: 25px auto 12px;
+  background: #dbeafe;
+  color: #2563eb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-modal h3 {
+  color: #172554;
+  font-size: 22px;
+}
+
+.student-register {
+  color: #64748b;
+  margin-top: 5px;
+}
+
+.details-content {
+  text-align: left;
+  background: #f8fafc;
+  padding: 18px;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow-wrap: anywhere;
+}
+
+.details-content p {
+  margin: 12px 0;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.details-close {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
